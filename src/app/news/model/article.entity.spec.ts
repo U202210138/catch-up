@@ -1,7 +1,7 @@
-import { ArticleEntity } from './article.entity';
+import { article } from './article.entity';
 
 describe('ArticleEntity', () => {
   it('should create an instance', () => {
-    expect(new ArticleEntity()).toBeTruthy();
+    expect(new article()).toBeTruthy();
   });
 });
